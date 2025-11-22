@@ -1,0 +1,4 @@
+# Carpeta de compilación de Maven
+/target/ 
+# Otras cosas que no queremos subir
+*.jar
