@@ -11,9 +11,9 @@ public final class MySQL {
     //PASO 1 --> definir parámetros (PDF tema 4 = Código 1 y Código 2)
     
     //Esta es la URL de conexión. Conecta a la BBDD "hoteles"
-    private static final String DEFAULT_URL = "\"jdbc:mysql://localhost:3306/hoteles\"\n" +
-                                      "+ \"?useSSL=false\"\n" +
-                                      "+ \"&serverTimezone=Europe/Madrid\"";
+    private static final String DEFAULT_URL = "jdbc:mysql://localhost:3306/hoteles"
+                                      + "?useSSL=false"
+                                      + "&serverTimezone=Europe/Madrid";
     
     
     
