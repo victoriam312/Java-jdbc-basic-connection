@@ -26,4 +26,8 @@ Para ejecutar este proyecto localmente:
 
 1.  Tener instalado y activo un servidor MySQL.
 2.  Tener una base de datos llamada `hoteles` con la tabla `hotel`.
-3.  **Actualizar la contraseña** en la variable `PASS` dentro del archivo `db/MySQL.java` con tu contraseña de `root`.
+3.  **Configurar las credenciales** sin tocar el código, con variables de entorno o propiedades de la JVM:
+    * Variables de entorno: `DB_USER`, `DB_PASSWORD` (y opcionalmente `DB_URL`).
+    * O al ejecutar: `-DDB_USER=tu_usuario -DDB_PASSWORD=tu_contraseña`.
+
+    En NetBeans se pueden poner en *Properties → Run → VM Options*.

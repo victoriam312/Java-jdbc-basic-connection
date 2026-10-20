@@ -1,4 +1,13 @@
 # Carpeta de compilación de Maven
-/target/ 
-# Otras cosas que no queremos subir
+/target/
+
+# Archivos generados
+*.class
 *.jar
+*.log
+
+# Ajustes locales del IDE
+/nbproject/private/
+
+# Sistema
+.DS_Store
